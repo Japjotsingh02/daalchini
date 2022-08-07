@@ -1,5 +1,4 @@
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
-import './App.css';
 import Checkout from './components/Checkout/Checkout';
 import Home from './components/Home/Home';
 import OrderConfirmed from './components/OrderConfirmed/OrderConfirmed';

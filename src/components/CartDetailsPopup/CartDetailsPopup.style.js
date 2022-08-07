@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const Cart = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
 
-    bottom: 108px;
-    width: calc(100vw - 60px);;
+    bottom: 6.75rem;
+    width: calc(100vw - 60px);
     position: fixed;
     background: #fff;
     z-index: 10000;
@@ -14,6 +14,10 @@ export const Cart = styled.div`
     padding:1.2rem;
     max-height: 18.656rem;
     overflow-y: scroll;
+
+    @media screen and (max-width: 1024px) {
+        width: calc(100vw - 2.188rem);
+    }
 
     .details{
         font-size:1.2rem;

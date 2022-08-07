@@ -12,21 +12,18 @@ const AddButton=(data)=> {
       return state.id === data.data.id;
     });
 
-    console.log(myState[index].count);
-
     const decreaseValue=()=>{
-        // count===0 && setaddItem(false);
         dispatch(removeFromCart(data.data));
-      }
+    }
     
-      const increaseValue=()=>{
-        dispatch(addToCart(data.data));
+    const increaseValue=()=>{
+      dispatch(addToCart(data.data));
     }
 
   return (
     <Form className='form'>
         <div className="value-button" id="decrease" onClick={decreaseValue} value="Decrease Value">-</div>
-        <input type="number" id="number" value={myState[index].count} readOnly/>
+        <input type="number" id="number" value={myState.length>0 ? myState[index].count : 0} readOnly/>
         <div className="value-button" id="increase" onClick={increaseValue} value="Increase Value">+</div>
     </Form>
   )

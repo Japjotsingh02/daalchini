@@ -6,16 +6,16 @@ export const Form =styled.div`
     display:flex;
     border-radius:4px;
     align-self:flex-end;
-    width: 100px;
-    height: 38px;
+    width: 6.25rem;
+    height: 2.375rem;
     cursor:pointer;
     align-items: center;
   
   .value-button {
     border: 2px solid rgba(21,176,119,255);
-    width: 30px;
+    width: 1.875rem;
     height: -webkit-fill-available;
-    padding: 7px 0;
+    padding: 0.438rem 0;
     user-select: none;
     cursor: pointer;
   }
@@ -47,7 +47,7 @@ export const Form =styled.div`
     border-top: 2px solid rgba(21,176,119,255);
     border-bottom: 2px solid rgba(21,176,119,255);
     color:rgba(21,176,119,255);
-    width: 40px;
+    width: 2.5rem;
     outline:0;
     height: -webkit-fill-available;
   }

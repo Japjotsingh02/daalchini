@@ -47,7 +47,25 @@ export const ProductItem = styled.div`
 
     .price{
         font-size:2rem;
-        font-weight:400;        
+        font-weight:400;    
+    }
+
+    @media screen and (max-width: 1024px) {
+        .flex{
+            height: calc(100% - 5rem);
+        }
+    }
+
+    @media screen and (max-width: 450px) {
+        .flex{
+            height: calc(100% - 6rem);
+        }
+    }
+
+    @media screen and (max-width: 380px) {
+        .flex{
+            height: calc(100% - 5rem);
+        }
     }
 
     .prevPrice{
@@ -62,13 +80,20 @@ export const ProductItem = styled.div`
         position:relative;
     }
 
+    @media screen and (max-width: 380px) {
+        .itemInput{
+            align-self:center;
+        }
+    }
+
     .addButton{
         color:#fff;
         cursor:pointer;
+        font-size: 1rem;
         text-transform:uppercase;
         background-color:rgba(21,176,119,255);
-        width: 100px;
-        height: 38px;
+        width: 6.25rem;
+        height: 2.375rem;
         border:0;
         border-radius:4px;
     }

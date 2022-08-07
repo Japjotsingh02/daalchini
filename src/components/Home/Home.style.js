@@ -52,4 +52,6 @@ export const PopUpBackground=styled.div`
     width:100vw;
     height:100vh;
     top:0;
+    touch-action:none;
+    user-select:none;
 `;
