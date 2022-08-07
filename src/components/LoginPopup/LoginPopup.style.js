@@ -7,7 +7,7 @@ export const Login =styled.div`
     flex-direction: column;
     display: flex;
     align-items: center;
-    width: calc(100vw - 60px);;
+    width: calc(100vw - 3.55rem);
     position: fixed;
     background: #fff;
     z-index: 10000;
@@ -17,6 +17,10 @@ export const Login =styled.div`
     padding:1.2rem;
     max-height: 18.656rem;
     overflow-y: scroll;
+
+    @media screen and (max-width: 1024px) {
+        width: calc(100vw - 2.188rem);
+    }
 
     .details{
         font-size:1.2rem;

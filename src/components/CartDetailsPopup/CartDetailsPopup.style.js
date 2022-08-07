@@ -4,7 +4,7 @@ export const Cart = styled.div`
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
 
     bottom: 6.75rem;
-    width: calc(100vw - 60px);
+    width: calc(100vw - 3.55rem);
     position: fixed;
     background: #fff;
     z-index: 10000;
